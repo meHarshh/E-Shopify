@@ -142,7 +142,7 @@ public class AuthServiceImpl implements AuthService {
                             .build();
 
                     ResponseStructure<AuthResponse> responseStructure = new ResponseStructure<>();
-                    responseStructure.setMessage("Logged in successfully")
+                    responseStructure.setMessage("Logged in successfull")
                                      .setStatus(HttpStatus.OK.value())
                                      .setData(authResponse);
 
