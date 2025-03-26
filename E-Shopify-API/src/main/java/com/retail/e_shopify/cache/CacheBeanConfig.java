@@ -9,7 +9,7 @@ public class CacheBeanConfig {
 	
 	@Bean
 	CacheStore<String> otpCache(){
-		return new CacheStore<String>(5);
+		return new CacheStore<String>(10);
 	}
 	
 	@Bean
